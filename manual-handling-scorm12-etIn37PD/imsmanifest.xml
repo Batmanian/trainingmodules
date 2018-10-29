@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<manifest identifier="YjAwJP7Qi52hAOvmfv2LZmIHf4ExT5OCetIn37PD" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Manual handling</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Manual handling</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/zfM40EfUrnQ1r85D-museo-700-regular-webfont.woff" />
+<file href="scormcontent/lib/fonts/4gOQnGovIDJLHz21-museo-300-regular-webfont.woff" />
+<file href="scormcontent/assets/zb9CTjY_tu9DkTHs_small.png" />
+<file href="scormcontent/assets/Q9kAF-J9UuDq7dSX_small.png" />
+<file href="scormcontent/assets/i_4pxMchqRjy9S0I_S2i9RMoso4Ys6El_.png" />
+<file href="scormcontent/assets/pjCc5ORgkKA-9HBn_transcoded-k2xOaN4E961hoWXj-manual-handling-00001.png" />
+<file href="scormcontent/assets/c8sTtHxQUSkTDAOX_transcoded-k2xOaN4E961hoWXj-manual-handling.mp4" />
+<file href="scormcontent/assets/LSKMqLrbc84YopdT_quote_background.jpg" />
+<file href="scormcontent/assets/0YfiE2czx0vUg5aC_wpkOBNjvDp-8Yduh.png" />
+<file href="scormcontent/assets/Y6ov3fCwrgHSgale_yXIo0-I6Vsr5bi79.png" />
+<file href="scormcontent/assets/hm3nUH1oUtQIX6ZG_FDdOe0F6Keicrywt.png" />
+<file href="scormcontent/assets/uaXQC-Uk6J09WcWu_c_9tl0a-7_MTTZNB.png" />
+<file href="scormcontent/assets/WqaaM40-kWpG_Bdj_GXZOtLGTqwWPHmrS.jpg" />
+<file href="scormcontent/assets/zPEj2xTdSagS9z06_mountains.jpg" />
+<file href="scormcontent/assets/cds958tBotPi-SSd_i9i3V8qsW5h07HYm.png" />
+<file href="scormcontent/assets/m-esKMxXRFSLdwh2_93LLllUOh5G5ClrQ.png" />
+<file href="scormcontent/assets/BB4NinaA6Di_A0u8_mVOUJRWKQYtAYvgF.png" />
+<file href="scormcontent/assets/xjUapy0RD8JYnZxy_Skd2pk5at9WJVkZ0.png" />
+<file href="scormcontent/assets/3IzUpng8FysWDOUt_nu-QTi0pLIzDrk7J.jpg" />
+<file href="scormcontent/assets/OPSXobI0BQWVrWqw_YOjrqzf9wCQdWvnm.png" />
+<file href="scormcontent/assets/yhvHWZIMqorNHQz3_p1iq-0cOhyvj2U6U.png" />
+<file href="scormcontent/assets/Vlv51fxz8Q3p_nc9_transcoded-PVW5B1s4ytIW2KAS-aged-care-bed-to-chair-transfer-00001.png" />
+<file href="scormcontent/assets/nbem0Gxxrn2K8QZl_transcoded-PVW5B1s4ytIW2KAS-aged-care-bed-to-chair-transfer.mp4" />
+<file href="scormcontent/assets/BiMfWcM1nuM09LIU_24KlxXpRnqQS4cs6.png" />
+<file href="scormcontent/assets/SWLsooXw4YPRHwYN_o_dVtEPFXNt4nOiO.png" />
+<file href="scormcontent/assets/E1JzBVdTN5_Mlozd_JPrmNZ1aEbzOfn_8.png" />
+<file href="scormcontent/assets/zU3ew40jqrf5bpzw_bOq1M6qgU-dJw6cU.png" />
+<file href="scormcontent/assets/X0D62-nnC06hS2lE_-2rbgogLMWjLpgH7.png" />
+<file href="scormcontent/assets/5atpcpSjW7N65bG__rhN2m8y1RYhqCTIL.png" />
+<file href="scormcontent/assets/DHa3wsRdh5yYY_1X_BDm2hUY_46bZThc2.png" />
+<file href="scormcontent/assets/_iDtQIJVknU1MBr8_FLx-OLDjtLuZ4zMO.jpg" />
+<file href="scormcontent/assets/slyI9apgfl_O_8Uy_bTd1VLPMAwCv9MqD.png" />
+<file href="scormcontent/assets/OuMVXyLH9VSSO_mB_ItjBm0SGcCOX0W5v.png" />
+<file href="scormcontent/assets/nretz747yvqV2MgD_6Toq0Q9q6tMhU88R.jpg" />
+<file href="scormcontent/assets/nCrmJKNcZPUzeaZ1_rCB9zXM6S1Wg9zHG.jpg" />
+<file href="scormcontent/assets/ReGCR-6LVwzDrECt_xz1SlNkIm8ixOEqW.jpg" />
+<file href="scormcontent/assets/P5PueZKw1rEqR2se_Ov9jJR7efxaG6zK_.jpg" />
+<file href="scormcontent/assets/ppnyRZKNWcISfPjP_OGL6kbrLAVSsRKiB.png" />
+<file href="scormcontent/assets/daFdaoCfo3ns5Ry0_iHlyxkQsmtKxPNsC-transferring-people-for-toileting-and-bathing.pdf" />
+<file href="scormcontent/assets/WfxB64CX74JkreKn_xgHr8x93fYGbQJoe.png" />
+<file href="scormcontent/assets/dfWMmJukPc_RJG7C_U96JSfXY52dINF-F.png" />
+<file href="scormcontent/assets/Sw7gzV-6O9snbuQz_iKea1KV150i-acVg.png" />
+<file href="scormcontent/assets/wbFAdm_YEDdBjcMz_LqML-hwk1F_SnBmI.png" />
+<file href="scormcontent/assets/SfRWPV9Valmy0Lt1_tB-Y1kcOQIhjf2oz.png" />
+
+    </resource>
+  </resources>
+</manifest>
